@@ -7,7 +7,7 @@
 
 A sleek, dark-themed collaborative desktop editor built with **Electron** and **FastAPI**. Supports real-time editing via WebSocket, room-based sessions, and modern UI inspired by VS Code. Perfect for co-authoring code, notes, or files with no login required.
 
-![image](https://github.com/Iro96/Wroom/blob/main/Wroom-logo.png)
+![image](https://github.com/Iro96/Wroom/blob/main/wroom.png)
 
 [![Issues](https://img.shields.io/github/issues-raw/Iro96/Wroom)](https://github.com/Iro96/Wroom/issues)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Iro96/Wroom/blob/main/LICENSE)
