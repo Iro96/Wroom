@@ -5,7 +5,7 @@
 
 # 🚀 Wroom: OpenSources Real-Time Collaborative Editor
 
-A sleek, dark-themed collaborative desktop editor built with **Electron** and **FastAPI**. Supports real-time editing via WebSocket, room-based sessions, and modern UI inspired by VS Code. Perfect for co-authoring code, notes, or files with no login required.
+**Working Room** - A sleek, dark-themed collaborative desktop editor built with **Electron** and **FastAPI**. Supports real-time editing via WebSocket, room-based sessions, and modern UI. Perfect for co-authoring code, notes, or files with no login required.
 
 ![image](https://github.com/Iro96/Wroom/blob/main/wroom.png)
 
@@ -16,8 +16,6 @@ A sleek, dark-themed collaborative desktop editor built with **Electron** and **
 </div>
 
 # 🚀 Wroom: Real-Time Collaborative Editor
-
-A sleek, dark-themed collaborative desktop editor built with **Electron** and **FastAPI**. Supports real-time editing via WebSocket, room-based sessions, and modern UI inspired by VS Code. Perfect for co-authoring code, notes, or files with no login required.
 
 </div>
 
@@ -34,8 +32,8 @@ A sleek, dark-themed collaborative desktop editor built with **Electron** and **
   - Type and edit freely
   - Receive live content from others
 - 🖥 **Cross-Platform Desktop App** — Built with Electron
-- 🎨 **Modern UI** — Styled after Visual Studio Code in dark theme
-- 📝 **File Support** — Markdown, DOCX, Excel, Code, and more
+- 🎨 **Modern UI** — The newest UI with dark mode
+- 📝 **File Support** — Markdown, Code, and more (can have more in feature)
 - 🔌 **Works Offline Locally** — Run backend and frontend together without cloud
 
 ---
@@ -45,32 +43,7 @@ A sleek, dark-themed collaborative desktop editor built with **Electron** and **
 - Create a room → Unique room ID is generated
 - Join with room ID → Editor syncs with author's content
 - Type or paste → Changes broadcast to all others
-- Author-only Permission: `Copy Room ID`, `Kick All Members`, `Open File`, `Save file directly`
-
----
-
-## 📦 Folder Structure
-
-```
-Wroom/
-├── backend/           # FastAPI + WebSocket backend
-│   ├── main.py
-│   ├── file_api.py
-│   └── websocket_manager.py
-├── electron/          # Electron-based frontend
-│   ├── index.html
-│   ├── main.js
-│   ├── preload.js
-│   ├── package-lock.json
-│   └── package.json
-├── shared/
-│   ├── app.js
-│   ├── styles.css
-├── .gitignore
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
+- Author-only Permission: `Copy Room ID`, `Kick Members`, `Open File`, `Save file directly`
 
 ---
 
@@ -83,15 +56,11 @@ Wroom/
 
 - Node.js (Electron frontend)
 
----
-
-### Clone the repository
+### $ Clone the repository
 ```bash
 git clone https://github.com/Iro96/Wroom.git
 cd Wroom
 ```
-
----
 
 ### 🐍 Backend Setup
 
@@ -100,8 +69,6 @@ cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
-
----
 
 ### 💻 Frontend Setup (Electron)
 
@@ -147,7 +114,7 @@ Licensed under the **MIT License** — see [LICENSE](https://opensource.org/lice
 
 > We welcome pull requests and feedback!  
 > Feel free to fork this repo and submit your improvements via PR.
-> !Note: This Project still on working...
+> Note! >> This Project still on working...
 
 ---
 
