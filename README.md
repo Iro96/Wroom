@@ -79,7 +79,7 @@ Wroom/
 ### 🔧 Prerequisites
 
 - Python 3.8+
-> Requires: fastapi 0.110.1, uvicorn 0.29.0 aiofiles 23.2.1, python-multipart 0.0.9
+> Requires: fastapi 0.110.1, uvicorn 0.29.0, aiofiles 23.2.1, python-multipart 0.0.9
 
 - Node.js (Electron frontend)
 
