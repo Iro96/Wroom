@@ -10,6 +10,7 @@
 ![image](https://github.com/Iro96/Wroom/blob/main/wroom.png)
 
 [![Issues](https://img.shields.io/github/issues-raw/Iro96/Wroom)](https://github.com/Iro96/Wroom/issues)
+[![Pytest](https://github.com/Iro96/Wroom/actions/workflows/python-app.yml/badge.svg)](https://github.com/Iro96/Wroom/actions/workflows/python-app.yml)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Iro96/Wroom/blob/main/LICENSE)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Iro96/Wroom)
 
