@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Collaborative Editor</title>
+  <link rel="stylesheet" href="../shared/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="topbar">
+      <div class="room-controls">
+        <button id="create-room">Create Room</button>
+        <input id="room-id-input" placeholder="Enter Room ID..." />
+        <button id="join-room">Join Room</button>
+        <button id="leave-room" style="display:none;">Leave Room</button>
+        <button id="copy-room" style="display:none;">Copy Room ID</button>
+        <button id="kick-members" style="display:none;">Kick Members</button>
+      </div>
+      <div class="file-controls">
+        <button id="open-file">Open</button>
+        <button id="save-file">Save</button>
+      </div>
+    </div>
+    <div id="custom-alert" class="custom-alert"></div>
+    <textarea id="editor" placeholder="Start typing here..."></textarea>
+  </div>
+  <script src="../shared/app.js"></script>
+</body>
+</html>
