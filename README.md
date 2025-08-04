@@ -115,8 +115,7 @@ Licensed under the **MIT License** — see [LICENSE](https://opensource.org/lice
 > We welcome pull requests and feedback!  
 > Feel free to fork this repo and submit your improvements via PR.
 > 
-***Note!*** This Project still on working...
-
+***Note!*** This project is still in the works.
 ---
 
 ## 📈 Star History
