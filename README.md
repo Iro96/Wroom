@@ -3,7 +3,7 @@
 <a href="https://github.com/Iro96/Wroom" target="_blank">
 </a>
 
-# 🚀 Wroom: OpenSources Real-Time Collaborative Editor
+# Wroom: OpenSources Real-Time Collaborative Editor
 
 **Working Room** - A sleek, dark-themed collaborative desktop editor built with **Electron** and **FastAPI**. Supports real-time editing via WebSocket, room-based sessions, and modern UI. Perfect for co-authoring code, notes, or files with no login required.
 
@@ -16,7 +16,7 @@
 
 </div>
 
-# 🚀 Wroom: Real-Time Collaborative Editor
+# Wroom: Real-Time Collaborative Editor
 
 </div>
 
