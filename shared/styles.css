@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background-color: #2d2d2d;
+  border-bottom: 1px solid #444;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.room-controls,
+.file-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.topbar input {
+  background-color: #252526;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 6px 10px;
+  border-radius: 4px;
+  outline: none;
+  width: 200px;
+}
+
+.topbar button {
+  background-color: #0e639c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+  white-space: nowrap;
+}
+
+.topbar button:hover {
+  background-color: #1177bb;
+}
+
+button#open-file,
+button#save-file {
+  background-color: #3a3d41;
+}
+
+button#copy-room {
+  background-color: #444;
+}
+
+#editor {
+  flex: 1;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #ccc;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.custom-alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  z-index: 2000;
+  pointer-events: none;
+}
+
+.custom-alert.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.custom-alert.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.custom-alert.error {
+  background-color: #d93025;
+  color: white;
+}
+
+#kick-members {
+  background-color: #bb3e3e;
+}
+#kick-members:hover {
+  background-color: #dd4444;
+}
+
